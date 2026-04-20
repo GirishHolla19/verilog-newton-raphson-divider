@@ -45,7 +45,7 @@ The module uses **16384** as the scaling factor ($2^{14}$).
 The design was verified using a testbench (included in `sim/`). The simulation demonstrates high-speed convergence across the full 8-bit divisor range.
 
 **Waveform Analysis:**
-![Simulation Waveform](docs/image_15018d.png)
+![Simulation Waveform](docs/NewtonRaphsonSim.png)
 
 ### Accuracy & Precision
 Due to the nature of **Q2.14 fixed-point truncation**, there is a known error margin of approximately $\pm 2$ on the final quotient. This is a design trade-off intended to save silicon area and reduce latency compared to a full IEEE-754 Floating Point Unit.
