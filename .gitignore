@@ -39,3 +39,26 @@
 
 # debug information files
 *.dwo
+
+# Vivado/Quartus/ModelSim logs and journals
+*.log
+*.jou
+*.pb
+*.wdb
+*.vcd
+*.str
+
+# Design Directories
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+db/
+incremental_db/
+
+# Compiled Simulation files
+work/
+transcript
+a.out
